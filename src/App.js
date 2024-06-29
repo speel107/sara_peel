@@ -10,7 +10,6 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Experience from './components/pages/Experience';
 import Projects from './components/pages/Projects';
-import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
 
@@ -19,12 +18,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/sara_peel" element={<Home />} />
+        <Route path="/sara_peel/about" element={<About />} />
+        <Route path="/sara_peel/experience" element={<Experience />} />
+        <Route path="/sara_peel/projects" element={<Projects />} />
+        <Route path="/sara_peel/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
