@@ -2,25 +2,34 @@ import {
   AppBar,
   Toolbar,
   Button,
+  Box
 } from "@mui/material";
 
 const Header = () => {
+  const buttonColor = "#000000";
+
   return (
-    <AppBar position="static">
+    <AppBar position="static" 
+      sx={{
+        backgroundColor: '#ffffff',
+        boxShadow: 'none',
+      }}
+    >
       <Toolbar>
-        <Button color="inherit" href="/sara_peel">
+        <Button href="/sara_peel" style={{ color: buttonColor }}>
           Sara Peel
         </Button>
-        <Button color="inherit" href="/sara_peel/about">
+        <Box sx={{ flexGrow: 1 }} />
+        <Button href="/sara_peel/about" style={{ color: buttonColor }}>
           About
         </Button>
-        <Button color="inherit" href="/sara_peel/experience">
+        <Button href="/sara_peel/experience" style={{ color: buttonColor }}>
           Experience
         </Button>
-        <Button color="inherit" href="/sara_peel/projects">
+        <Button href="/sara_peel/projects" style={{ color: buttonColor }}>
           Projects
         </Button>
-        <Button color="inherit" href="/sara_peel/contact">
+        <Button href="/sara_peel/contact" style={{ color: buttonColor }}>
           Contact
         </Button>
       </Toolbar>
