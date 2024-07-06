@@ -5,8 +5,8 @@ import {
 
 const ProjectItem = ({ item }) => {
   return (
-    <Box>
-      <Typography variant="h4" > { item.name } </Typography>
+    <Box sx={{ paddingX: "3rem", paddingY: "1rem" }} >
+      <Typography variant="h5" > { item.name } </Typography>
       <Typography variant="body1" > { item.category } </Typography>
     </Box>
   );

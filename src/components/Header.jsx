@@ -22,7 +22,8 @@ const Header = () => {
       }}
     >
       <Toolbar style={{ 
-        width: "1290px", 
+        width: "100%",
+        maxWidth: "1290px", 
         alignSelf: "center",
         display: "flex",
         justifyContent: "space-between"
@@ -30,7 +31,6 @@ const Header = () => {
         <Button href="/sara_peel" style={{ color: darkbrown }}>
           Sara Peel
         </Button>
-        {/* <Box sx={{ flexGrow: 1 }} /> */}
         <Box>
         <Button href="/sara_peel/about" style={{ color: darkbrown }}>
           About
