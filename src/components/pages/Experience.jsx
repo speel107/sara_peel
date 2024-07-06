@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div>
+    <div className="page" >
       <p>Work Experience</p>
     </div>
   );

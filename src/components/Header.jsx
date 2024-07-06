@@ -18,13 +18,20 @@ const Header = () => {
       sx={{
         backgroundColor: offwhite,
         boxShadow: 'none',
+        display: 'flex',
       }}
     >
-      <Toolbar style={{ maxWidth: "1290px" }}>
+      <Toolbar style={{ 
+        width: "1290px", 
+        alignSelf: "center",
+        display: "flex",
+        justifyContent: "space-between"
+      }}>
         <Button href="/sara_peel" style={{ color: darkbrown }}>
           Sara Peel
         </Button>
-        <Box sx={{ flexGrow: 1 }} />
+        {/* <Box sx={{ flexGrow: 1 }} /> */}
+        <Box>
         <Button href="/sara_peel/about" style={{ color: darkbrown }}>
           About
         </Button>
@@ -37,6 +44,7 @@ const Header = () => {
         <Button href="/sara_peel/contact" style={{ color: darkbrown }}>
           Contact
         </Button>
+        </Box>
       </Toolbar>
     </AppBar>
   );

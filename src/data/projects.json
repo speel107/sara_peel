@@ -1,25 +1,31 @@
 [
     {
+        "id": 1,
         "name": "BYU Law School Website",
         "category": "work"
     },
     {
+        "id": 2,
         "name": "WikiRealms",
         "category": "personal"
     },
     {
+        "id": 3,
         "name": "Fake Profile Wizard",
         "category": "research"
     },
     {
+        "id": 4,
         "name": "Resume Website",
         "category": "personal"
     },
     {
+        "id": 5,
         "name": "Tweeter",
         "category": "school"
     },
     {
+        "id": 6,
         "name": "Game Night",
         "category": "school"
     }

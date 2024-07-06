@@ -10,7 +10,7 @@ import {
 
 const Home = () => {
   return (
-    <Box style={{ 
+    <Box className="page" style={{ 
       width: "100%", 
       height: "100%",
       display: "flex",

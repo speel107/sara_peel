@@ -1,8 +1,18 @@
+import { 
+  Grid 
+} from '@mui/material';
+import ProjectItem from '../ProjectItem';
+import projectData from '../../data/projects.json'
+
 const Projects = () => {
   return (
-    <div>
-      <p>Development Projects</p>
-    </div>
+    <Grid container className='page' >
+      {projectData.map((item) => (
+        <Grid item xs={12} key={item.id}>
+          <ProjectItem item={item} />
+        </Grid>
+      ))}
+    </Grid>
   );
 };
 
