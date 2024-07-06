@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Developer",
+        "company": "J. Reuben Clark Law School",
+        "dates": "May 2023 - Present"
+    },
+    {
+        "id": 2,
+        "title": "Research Assistant",
+        "company": "BYU CS STaPL Lab",
+        "dates": "Feb 2023 - Present"
+    },
+    {
+        "id": 3,
+        "title": "Special Projects Manager",
+        "company": "EduKit Inc.",
+        "dates": "Apr 2022 - Apr 2023"
+    },
+    {
+        "id": 4,
+        "title": "Teacher's Assistant",
+        "company": "BYU Computer Science Dept.",
+        "dates": "Jan 2021 - Apr 2022"
+    },
+    {
+        "id": 5,
+        "title": "Document Lead",
+        "company": "EduKit Inc.",
+        "dates": "Mar 2020 - Aug 2020, Apr 2021 - Aug 2021"
+    },
+    {
+        "id": 6,
+        "title": "Bakery Assistant",
+        "company": "BYU Culinary Support Center",
+        "dates": "Jan 2020 - Dec 2020"
+    },
+    {
+        "id": 7,
+        "title": "Document Clerk",
+        "company": "EduKit Inc.",
+        "dates": "May 2019 - Aug 2019"
+    }
+]
