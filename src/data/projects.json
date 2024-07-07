@@ -2,31 +2,79 @@
     {
         "id": 1,
         "name": "BYU Law School Website",
-        "category": "work"
+        "category": "work",
+        "timeline": "May 2023 - Present",
+        "description": "From start to finish, I helped implement a full migration and redesign of the Law School's public informational website. The site went live in May 2024.",
+        "link": "https://law.byu.edu/",
+        "team": 8,
+        "stack": ["ReactJS", "Material UI", "NodeJS", "Strapi", "AWS S3"],
+        "button": "Visit Site",
+        "image": "LawImage",
+        "error": "BYU Law error"
     },
     {
         "id": 2,
         "name": "WikiRealms",
-        "category": "personal"
+        "category": "personal",
+        "timeline": "Jan 2024 - Present",
+        "description": "Using the design project in one of our courses, my team is working to build a web application designed to help prospective authors organize, manage, and share their worldbuilding ideas.",
+        "link": "https://davemurdock55.github.io/wiki-realms-ui-case-study/",
+        "team": 3,
+        "stack": ["ReactTS", "NodeTS", "Azure Functions", "Azure Cosmos DB"],
+        "button": "Project Concept",
+        "image": "../images/LawSchool-SM.jpg",
+        "error": "WikiRealms error"
     },
     {
         "id": 3,
         "name": "Fake Profile Wizard",
-        "category": "research"
+        "category": "research",
+        "timeline": "Jun 2024 - Present",
+        "description": "I'm currently working to develop the frontend for our research team's Wizard--a mobile app designed to help Autistic adults identify bad actors on Facebook.",
+        "link": "N/A",
+        "team": 4,
+        "stack": ["Flutter"],
+        "button": "N/A",
+        "image": "../images/LawSchool-SM.jpg",
+        "error": "Preview unavailable: Wizard is still being developed."
     },
     {
         "id": 4,
         "name": "Resume Website",
-        "category": "personal"
+        "category": "personal",
+        "timeline": "Apr 2023 - Present",
+        "description": "This is the site you're on! My website is a custom space I built to showcase the skills I've learned and the projects I've been involved with.",
+        "link": "N/A",
+        "team": 1,
+        "stack": ["ReactJS", "Material UI", "NodeJS", "Github Pages"],
+        "button": "N/A",
+        "image": "../images/LawSchool-SM.jpg",
+        "error": "You're on the site already :)"
     },
     {
         "id": 5,
         "name": "Tweeter",
-        "category": "school"
+        "category": "school",
+        "timeline": "Jan 2024 - Apr 2024",
+        "description": "A Twitter clone built as a full stack web application. I built the backend from scratch, and the frontend was refactored using common software design patterns.",
+        "link": "N/A",
+        "team": 1,
+        "stack": ["ReactTS", "NodeTS", "AWS Lambda", "AWS Dynamo DB", "AWS S3"],
+        "button": "N/A",
+        "image": "../images/LawSchool-SM.jpg",
+        "error": "Site is down to minimize AWS costs. Contact Sara for more information."
     },
     {
         "id": 6,
         "name": "Game Night",
-        "category": "school"
+        "category": "school",
+        "timeline": "Jan 2024 - Apr 2024",
+        "description": "A static website designed to display, organize, and filter board game information. Our team conducted a contextual inquiry and card sorting study to inform the deisgn.",
+        "link": "https://ethanmchls.github.io/game-night/",
+        "team": 3,
+        "stack": ["ReactJS", "Tailwind CSS", "NodeJS", "Github Pages"],
+        "button": "Visit Site",
+        "image": "../images/LawSchool-SM.jpg",
+        "error": "Game Night error"
     }
 ]

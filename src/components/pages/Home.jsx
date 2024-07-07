@@ -15,8 +15,7 @@ const Home = () => {
       height: "100%",
       display: "flex",
       flexDirection: "row",
-      }} 
-    >
+    }}>
       <Box style={{ flexGrow: 1, backgroundColor: blue }}>
         <Typography style={{ color: offwhite }}>
           Developer / Designer / Doesn't like the Dentist
