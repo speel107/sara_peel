@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/sara_peel/static/css/main.ae09fc3f.css",
-    "main.js": "/sara_peel/static/js/main.4d02f79b.js",
+    "main.css": "/sara_peel/static/css/main.1a9b42e9.css",
+    "main.js": "/sara_peel/static/js/main.0e36c418.js",
     "static/js/453.2ed874b4.chunk.js": "/sara_peel/static/js/453.2ed874b4.chunk.js",
     "static/media/stgeorge-91.jpg": "/sara_peel/static/media/stgeorge-91.b4027b128b18d96b5efa.jpg",
-    "static/media/LawSchool-SM.jpg": "/sara_peel/static/media/LawSchool-SM.c255b67f862a6a7b385c.jpg",
     "index.html": "/sara_peel/index.html",
-    "main.ae09fc3f.css.map": "/sara_peel/static/css/main.ae09fc3f.css.map",
-    "main.4d02f79b.js.map": "/sara_peel/static/js/main.4d02f79b.js.map",
+    "main.1a9b42e9.css.map": "/sara_peel/static/css/main.1a9b42e9.css.map",
+    "main.0e36c418.js.map": "/sara_peel/static/js/main.0e36c418.js.map",
     "453.2ed874b4.chunk.js.map": "/sara_peel/static/js/453.2ed874b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae09fc3f.css",
-    "static/js/main.4d02f79b.js"
+    "static/css/main.1a9b42e9.css",
+    "static/js/main.0e36c418.js"
   ]
 }
