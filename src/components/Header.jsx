@@ -1,7 +1,6 @@
 import { 
   AppBar,
   Toolbar,
-  Button,
   Box
 } from "@mui/material";
 import { useLocation, Link } from "react-router-dom";
@@ -23,6 +22,7 @@ const Header = () => {
     padding: "0 16px", // Adjust padding as needed
     display: "flex",
     alignItems: "center", // Centers text vertically
+    textDecoration: "none", // Removes underline from links
     '&:hover': {
       color: orange,
       fontWeight: "bold"
@@ -48,20 +48,20 @@ const Header = () => {
         height: "64px",
         boxSizing: 'border-box', // Ensures padding is included in width calculations
       }}>
-        <Link to="/" sx={linkStyle('/')}>
+        <Link to="/" style={linkStyle('/')}>
           Sara Peel
         </Link>
         <Box sx={{ display: "flex", flexDirection: "row", height: "100%" }}>
-          <Link to="/about" sx={linkStyle('/about')}>
+          <Link to="/about" style={linkStyle('/about')}>
             About
           </Link>
-          <Link to="/experience" sx={linkStyle('/experience')}>
+          <Link to="/experience" style={linkStyle('/experience')}>
             Experience
           </Link>
-          <Link to="/projects" sx={linkStyle('/projects')}>
+          <Link to="/projects" style={linkStyle('/projects')}>
             Projects
           </Link>
-          <Link to="/contact" sx={linkStyle('/contact')}>
+          <Link to="/contact" style={linkStyle('/contact')}>
             Contact
           </Link>
         </Box>
