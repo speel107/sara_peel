@@ -3,7 +3,7 @@
         "id": 1,
         "name": "BYU Law School Website",
         "category": "work",
-        "timeline": "May 2023 - Present",
+        "timeline": "May 2023 - August 2024",
         "description": "From start to finish, I helped implement a full migration and redesign of the Law School's public informational website. The site went live in May 2024.",
         "link": "https://law.byu.edu/",
         "team": 8,
@@ -33,7 +33,7 @@
         "description": "I'm currently working to develop the frontend for our research team's Wizard--a mobile app designed to help Autistic adults identify bad actors on Facebook.",
         "link": "N/A",
         "team": 4,
-        "stack": ["Flutter"],
+        "stack": ["Flutter", "Figma"],
         "button": "N/A",
         "image": "../images/LawSchool-SM.jpg",
         "error": "Preview unavailable: Wizard is still being developed."
