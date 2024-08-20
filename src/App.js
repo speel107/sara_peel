@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -18,11 +18,11 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/sara_peel" element={<Home />} />
-        <Route path="/sara_peel/about" element={<About />} />
-        <Route path="/sara_peel/experience" element={<Experience />} />
-        <Route path="/sara_peel/projects" element={<Projects />} />
-        <Route path="/sara_peel/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

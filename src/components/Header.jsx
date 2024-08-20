@@ -4,7 +4,7 @@ import {
   Button,
   Box
 } from "@mui/material";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 export const blue = "#3C4E73";
 export const darkbrown = "#40240C";
@@ -48,22 +48,22 @@ const Header = () => {
         height: "64px",
         boxSizing: 'border-box', // Ensures padding is included in width calculations
       }}>
-        <Button href="/sara_peel" sx={linkStyle('/sara_peel')}>
+        <Link to="/" sx={linkStyle('/')}>
           Sara Peel
-        </Button>
+        </Link>
         <Box sx={{ display: "flex", flexDirection: "row", height: "100%" }}>
-          <Button href="/sara_peel/about" sx={linkStyle('/sara_peel/about')}>
+          <Link to="/about" sx={linkStyle('/about')}>
             About
-          </Button>
-          <Button href="/sara_peel/experience" sx={linkStyle('/sara_peel/experience')}>
+          </Link>
+          <Link to="/experience" sx={linkStyle('/experience')}>
             Experience
-          </Button>
-          <Button href="/sara_peel/projects" sx={linkStyle('/sara_peel/projects')}>
+          </Link>
+          <Link to="/projects" sx={linkStyle('/projects')}>
             Projects
-          </Button>
-          <Button href="/sara_peel/contact" sx={linkStyle('/sara_peel/contact')}>
+          </Link>
+          <Link to="/contact" sx={linkStyle('/contact')}>
             Contact
-          </Button>
+          </Link>
         </Box>
       </Toolbar>
     </AppBar>
