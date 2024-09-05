@@ -5,18 +5,17 @@ import {
 } from "@mui/material";
 import { useLocation, Link } from "react-router-dom";
 
-export const blue = "#3C4E73";
-export const darkbrown = "#40240C";
-export const orange = "#BF6F41";
-export const midbrown = "#73503C";
-export const lightbrown = "#D9A78B";
-export const offwhite = "#FAF7FC";
+export const blue = "#192340";
+export const darkgreen = "#4F5902";
+export const green = "#B9BF04";
+export const yellow = "#D9CB04";
+export const offwhite = "#E9EBF2";
 
 const Header = () => {
   const location = useLocation();
 
   const linkStyle = (path) => ({
-    color: location.pathname === path ? orange : darkbrown,
+    color: location.pathname === path ? green : darkgreen,
     fontWeight: location.pathname === path ? "bold" : "normal",
     height: "100%", // Ensures button height matches the toolbar
     padding: "0 16px", // Adjust padding as needed
@@ -24,13 +23,13 @@ const Header = () => {
     alignItems: "center", // Centers text vertically
     textDecoration: "none", // Removes underline from links
     '&:hover': {
-      color: orange,
+      color: green,
       fontWeight: "bold"
     }
   });
 
   return (
-    <AppBar position="static" 
+    <AppBar position="sticky" 
       sx={{
         backgroundColor: offwhite,
         boxShadow: 'none',
@@ -52,9 +51,9 @@ const Header = () => {
           Sara Peel
         </Link>
         <Box sx={{ display: "flex", flexDirection: "row", height: "100%" }}>
-          <Link to="/about" style={linkStyle('/about')}>
+          {/* <Link to="/about" style={linkStyle('/about')}>
             About
-          </Link>
+          </Link> */}
           <Link to="/experience" style={linkStyle('/experience')}>
             Experience
           </Link>

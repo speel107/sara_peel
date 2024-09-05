@@ -7,9 +7,9 @@ import {
 } from "@mui/material";
 import { 
   offwhite,
-  lightbrown,
-  darkbrown,
-  orange,
+  green,
+  darkgreen,
+  yellow,
   blue
 } from "./Header.jsx"
 
@@ -27,7 +27,7 @@ const ProjectItem = ({ item }) => {
         > 
           <Box 
             sx={{ 
-              width: "5rem", 
+              width: "4rem", 
               height: "20rem", 
               backgroundColor: blue,
               borderRadius: "1rem 0 0 1rem" 
@@ -62,7 +62,7 @@ const ProjectItem = ({ item }) => {
           <Grid item>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, marginTop: '1rem' }}>
               {item.stack.map((tech, index) => (
-                <Chip key={index} label={tech} variant="outlined" sx={{ backgroundColor: lightbrown, color: darkbrown }} />
+                <Chip key={index} label={tech} variant="outlined" sx={{ backgroundColor: green, color: darkgreen }} />
               ))}
             </Box>
           </Grid>
@@ -73,7 +73,7 @@ const ProjectItem = ({ item }) => {
                 rel="noopener"
                 target="_blank"
                 href={item.link} 
-                sx={{ backgroundColor: orange, color: offwhite, '&:hover': { backgroundColor: darkbrown } }}
+                sx={{ backgroundColor: darkgreen, color: offwhite, '&:hover': { backgroundColor: green } }}
               >
                 {item.button}
               </Button> : null }
