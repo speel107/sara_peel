@@ -10,12 +10,18 @@ import jobData from "../../data/jobs.json";
 
 const Experience = () => {
   return (
-    <Box className="page" >
+    <Box className="page" sx={{ display: "flex", justifyContent: "center" }} >
       <Timeline
         sx={{
           [`& .${timelineOppositeContentClasses.root}`]: {
-            flex: 0.2,
+            display: 'block', // Remove flex to prevent extra space
+            textAlign: 'right', // Align text to the right
+            marginRight: '0', // Prevent right-side margin
+            maxWidth: '150px', // Adjust as needed
           },
+          "& .MuiTimelineContent-root": {
+            maxWidth: "300px", // Restrict width of right side
+          }
         }}
       >
         {jobData.map((item) => (

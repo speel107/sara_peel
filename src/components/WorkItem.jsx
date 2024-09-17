@@ -13,7 +13,7 @@ import {
 const WorkItem = ({ item }) => {
   return (
     <TimelineItem>
-      <TimelineOppositeContent color="textSecondary">
+      <TimelineOppositeContent color="textSecondary" >
         { item.dates }
       </TimelineOppositeContent>
       <TimelineSeparator>
@@ -21,7 +21,7 @@ const WorkItem = ({ item }) => {
         <TimelineConnector />
       </TimelineSeparator>
       <TimelineContent>
-        <Typography variant="h5">
+        <Typography variant="h5" >
           { item.title }
         </Typography>
         <Typography variant="body1">

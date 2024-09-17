@@ -54,9 +54,9 @@ const Header = () => {
           {/* <Link to="/about" style={linkStyle('/about')}>
             About
           </Link> */}
-          <Link to="/experience" style={linkStyle('/experience')}>
+          {/* <Link to="/experience" style={linkStyle('/experience')}>
             Experience
-          </Link>
+          </Link> */}
           <Link to="/projects" style={linkStyle('/projects')}>
             Projects
           </Link>

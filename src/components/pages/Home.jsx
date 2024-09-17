@@ -20,6 +20,7 @@ const Home = () => {
       <img
         src={homeImage}
         alt="Feature"
+        loading="lazy"
         style={{ 
           width: "20rem",
         }}
